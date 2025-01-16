@@ -33,7 +33,7 @@ const CareerGuarantee = () => {
   }, [pathname]);
 
   return (
-    <div className="px-4 md:py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="px-4 md:py-12 bg-gradient-to-br from-gray-50 via-black-50 to-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="relative w-full overflow-hidden rounded-xl">
           {/* Mobile View */}
@@ -62,7 +62,7 @@ const CareerGuarantee = () => {
                   rel="noopener noreferrer"
                 >
                   <Button 
-                    className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
+                    className="bg-[#292929] hover:bg-gray-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                   >
                     {config.buttonText}
                   </Button>
@@ -95,7 +95,7 @@ const CareerGuarantee = () => {
                   rel="noopener noreferrer"
                 >
                   <Button 
-                    className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
+                    className="bg-[#292929] hover:bg-gray-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                   >
                     {config.buttonText}
                   </Button>
