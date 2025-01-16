@@ -44,11 +44,11 @@ const Hero = () => {
     return (
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
-        <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
+        <div className="bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
           <div className="max-w-6xl mx-auto py-4 md:py-2"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
             <div className="flex flex-wrap gap-2 sm:gap-2 pt-6">
-              <Badge variant="secondary" className="bg-red-800 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
+              <Badge variant="secondary" className="bg-gray-600 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
               #RightJobKiGuarantee ✨
               </Badge>
             </div>
