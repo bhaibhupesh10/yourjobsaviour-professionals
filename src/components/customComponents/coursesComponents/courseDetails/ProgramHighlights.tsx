@@ -26,7 +26,7 @@ const ProgramHighlights = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-r from-gray-50 to-red-50">
+    <div className="bg-gradient-to-r from-gray-50 to-gray-100">
       <div className="py-6 lg:px-8 max-w-6xl mx-auto px-2">
         {/* Title */}
         <h2 className="text-gray-700 text-sm font-semibold mb-2 text-center">
@@ -53,7 +53,7 @@ const ProgramHighlights = () => {
                   <img 
                     src={item.icon}
                     alt={item.description}
-                    className="h-12 w-12 p-1 rounded-lg bg-red-100"
+                    className="h-12 w-12 p-1 rounded-lg bg-gray-100"
                   />
                 </div>
 

@@ -110,7 +110,7 @@ export default function TestimonialsSection() {
                     </p>
                     <button
                       onClick={() => setIsExpanded(!isExpanded)}
-                      className="text-red-500 hover:text-red-700 font-medium mt-2"
+                      className="text-gray-500 hover:text-gray-700 font-medium mt-2"
                     >
                       {isExpanded ? 'Read Less' : 'Read More'}
                     </button>

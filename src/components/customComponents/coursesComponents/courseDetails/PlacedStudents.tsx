@@ -156,7 +156,7 @@ const PlacedStudents = () => {
                 } ,
                ];
                return (
-                <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="placements">
+                <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100" id="placements">
                   <div className="flex flex-col items-center py-4 md:py-4 px-2">
                     <h1 className="text-3xl md:text-3xl font-semibold text-black text-center">
                     Our learners got guaranteed placement.
@@ -170,7 +170,7 @@ const PlacedStudents = () => {
                       <div className={styles['slide-track']}>
                         {[...employees, ...employees].map((employee, index) => (
                           <div key={index} className={styles.slide}>
-                            <div className="border-2 rounded-lg shadow-lg bg-pink-100 h-[300px] flex flex-col items-center relative p-2">
+                            <div className="border-2 rounded-lg shadow-lg bg-gray-100 h-[300px] flex flex-col items-center relative p-2">
                               <a href={employee.linkding} target="_blank" rel="noopener noreferrer" className="w-full h-full flex flex-col items-center">
                                 <div className="absolute top-1 right-1 bg-white p-1 rounded-full shadow-md text-sm">📌</div>
                                 
@@ -194,7 +194,7 @@ const PlacedStudents = () => {
                                   <p className="text-xs text-[#ff0000] font-bold">{employee.designation}</p>
                                 </div>
             
-                                <div className="mt-2 bg-[#ff0000] text-white py-2 w-[90%] text-center">
+                                <div className="mt-2 bg-[#292929] text-white py-2 w-[90%] text-center">
                                   <span className="text-sm font-bold">{employee.package}</span>
                                 </div>
             

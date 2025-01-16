@@ -44,11 +44,11 @@ const Hero = () => {
     return (
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
-        <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
+        <div className="bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
           <div className="max-w-6xl mx-auto py-4 md:py-2"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
             <div className="flex flex-wrap gap-2 sm:gap-2 pt-6">
-              <Badge variant="secondary" className="bg-red-800 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
+              <Badge variant="secondary" className="bg-gray-800 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
               #RightJobKiGuarantee ✨
               </Badge>
             </div>
@@ -67,7 +67,7 @@ const Hero = () => {
 Next companies hiring in Apr - May offering  ₹4-8 LPA package.
 
                 </p>
-                <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
+                <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-gray-700 text-sm sm:text-base">
                 100% refund if not hired
                 </Button>
               </div>
@@ -98,7 +98,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
           {/* Online Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <MdOnlinePrediction className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <MdOnlinePrediction className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ONLINE</span>
               <span className="font-bold text-xs block">3 months</span>
@@ -107,7 +107,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
 
           {/* Admission Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <BsCalendarCheck className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <BsCalendarCheck className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
               <span className="font-bold text-xs block">15th Jan</span>
@@ -119,7 +119,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
 
           {/* Course Fee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
-  <FaMoneyBillWave className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
+  <FaMoneyBillWave className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
   <div>
     {/* <span className="text-black text-xs font-medium">COURSE FEE</span> */}
     <span className="text-black text-xs font-medium">JOB ROLE</span>
@@ -143,7 +143,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
 
           {/* Guarantee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <TbCertificate className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <TbCertificate className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">GUARANTEE</span>
               <div className="font-bold text-xs">100% refund if not hired</div>
@@ -154,7 +154,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
         {/* Vertical Divider and Button Section */}
         <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Changed items-center to items-start */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
-         <a href={link} target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
+         <a href={link} target="blank">  <Button  className="bg-[#292929] md:mx-4 hover:bg-[#292929] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
          {/* <a href="https://forms.gle/6r8Qa7UR9TNTXXZG9" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6"> */}
             {buttonText}
             </Button>
