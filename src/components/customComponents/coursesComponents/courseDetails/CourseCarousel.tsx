@@ -68,8 +68,9 @@ function CourseCarousel() {
               <img 
                 alt="numbering" 
                 className="w-full h-full" 
-                src="/assets/tag4.png"
+                src="/assets/tag1.png"
               />
+              
             </div>
           </div>
 
@@ -139,6 +140,14 @@ function CourseCarousel() {
               </div>
             </div>
           </div>
+        </div>
+         {/* Bottom Arrow */}
+         <div className="pt-2 h-16 w-8 ml-8 md:ml-[130px]">
+          <img 
+            src="/assets/downarrow.png" 
+            alt="Description of the image" 
+            className="h-full w-full object-contain" 
+          />
         </div>
       </div>
       <style jsx>{`

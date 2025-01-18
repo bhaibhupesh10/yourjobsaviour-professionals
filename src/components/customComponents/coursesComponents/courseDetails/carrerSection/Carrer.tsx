@@ -27,7 +27,7 @@ export default function CourseCareerModule() {
     </div>
 
     <div className="flex justify-between items-start mb-4 mt-4"> {/* Added mt-4 to account for the number */}
-      <h1 className="text-2xl font-bold text-white ">Career Track</h1> {/* Added ml-8 to avoid overlap with number */}
+      <h1 className="text-2xl font-bold text-white ">Career Assistance </h1> {/* Added ml-8 to avoid overlap with number */}
       <div className="absolute top-0 right-0 sm:block md:hidden"> {/* Changed here */}
   <Badge 
     variant="secondary" 
@@ -38,8 +38,7 @@ export default function CourseCareerModule() {
 </div>
     </div>
             <p className="text-white/80 text-md mb-6">
-            Becoming a part of our Placement Guaranteed DevOps program gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success
-
+            Becoming a part of our Career Switch / Salary Hike Guaranteed DevOps program gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success.
             </p>
 
             {/* Mobile Tabs */}

@@ -14,13 +14,13 @@ export default function ISASigningProcess() {
               <img 
                 alt="numbering" 
                 className="w-full h-full" 
-                src="/assets/tag1.png"
+                src="/assets/tag4.png"
               />
             </div>
           </div>
 
           {/* Mobile Number */}
-          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center">
+          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg--900 rounded-full flex items-center justify-center">
             <span className="text-white font-bold text-lg">3</span>
           </div>
 
@@ -162,14 +162,7 @@ export default function ISASigningProcess() {
           </div>
         </div>
 
-        {/* Bottom Arrow */}
-        <div className="pt-2 h-16 w-8 ml-8 md:ml-[130px]">
-          <img 
-            src="/assets/downarrow.png" 
-            alt="Description of the image" 
-            className="h-full w-full object-contain" 
-          />
-        </div>
+        
       </div>
     </div>
   )
