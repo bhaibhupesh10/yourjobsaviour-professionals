@@ -4,6 +4,7 @@ import React from "react";
 import { OurAlumniWorksAtCarousel } from "../../../ui/OurAlumniWorksAtCarousel";
 
 // Company logos imports
+import samsung from "../../../../../public/assets/companyLogo/samsung.png";
 import Google from "../../../../../public/assets/companyLogo/google.png";
 import TCS from "../../../../../public/assets/companyLogo/tcs.png";
 import Infosys from "../../../../../public/assets/companyLogo/infosys.png";
@@ -34,7 +35,7 @@ import Allianz from "../../../../../public/assets/companyLogo/allianz.png";
 import BankOfAmerica from "../../../../../public/assets/companyLogo/bankofamerica.png";
 import BigBasket from "../../../../../public/assets/companyLogo/bigbasket.png";
 import BluePlanet from "../../../../../public/assets/companyLogo/blueplanet.png";
-import Capgemini from "../../../../../public/assets/companyLogo/capgemini.png";
+import Capgemini from "../../../../../public/assets/companyLogo/Artboard5@4x.png";
 import shyenaTech from "../../../../../public/assets/companyLogo/shyenaTechLogo.png";
 import quantifi from "../../../../../public/assets/companyLogo/quantfi.png";
 import peerxp from "../../../../../public/assets/companyLogo/peerXp-Photoroom.png";
@@ -78,6 +79,7 @@ export function LeftRightAlumniCarousel() {
   }
 const companiesRow1 = [
   { image: Google.src },
+  { image: BigBasket.src },
   { image: Microsoft.src },
   { image: IBM.src },
   { image: TCS.src },
@@ -85,6 +87,7 @@ const companiesRow1 = [
   { image: Salesforce.src },
   { image: Intel.src },
   { image: RedHat.src },
+  { image: PWC.src },
   { image: peerxp.src },
   { image: Wipro.src },
   { image: Zoho.src },
@@ -92,14 +95,17 @@ const companiesRow1 = [
   { image: Searce.src },
   { image: Syfe.src },
   { image: Paytm.src },
+  { image: JPMorgan.src },
 ];
 
 const companiesRow2 = [
   { image: Accenture.src },
+  { image: Capgemini.src },
   { image: Nykaa.src },
   { image: NPCI.src },
   { image: Accenture.src },
   { image: unthinkable.src },
+  { image: Razorpay.src },
   { image: Deloitte.src },
   { image: Dell.src },
   { image: pinkcompany.src },
