@@ -54,7 +54,7 @@ export function LeftRightAlumniCarousel() {
         </div>
   
         {/* First row - Moving Left */}
-        <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden mb-2">
+        <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden mt-6">
           <OurAlumniWorksAtCarousel
             items={companiesRow1}
             direction="left"
