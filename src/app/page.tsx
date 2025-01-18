@@ -61,7 +61,11 @@ const CourseDetail = ()=>{
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <RecentPlacedStudents />
+<<<<<<< HEAD
         {/* <RegisteredStudentCarousel /> */}
+=======
+        <RegisteredStudentCarousel />
+>>>>>>> 237c4502636593321382ee519a197c8c0e02ff43
       <LeftRightAlumniCarousel />   
         <CompaniesCarousel/>
         <CareerTransformation />
