@@ -8,7 +8,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Bangalore" },
         { icon: "GraduationCap", text: "SRM Institute of Science and Technology", badge: "BE" },
-        { icon: "Briefcase", text: "6 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "6 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -33,7 +33,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Kolkata" },
         { icon: "GraduationCap", text: "Guru nanak institute of technology", badge: "BE" },
-        { icon: "Briefcase", text: "4 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "4 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -57,7 +57,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Gurugram" },
         { icon: "GraduationCap", text: "Sinhgad College of Engineering", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -81,7 +81,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Bangalore" },
         { icon: "GraduationCap", text: "Birla Institute of Technology - Mesra", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -106,7 +106,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Nasik" },
         { icon: "GraduationCap", text: "Birla Institute of Technology - Mesra", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -131,7 +131,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Uttarakhand" },
         { icon: "GraduationCap", text: "Dayalbagh Educational Institute, ", badge: "BE" },
-        { icon: "Briefcase", text: "2 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "2 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -156,7 +156,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Agra" },
         { icon: "GraduationCap", text: "Dayalbagh Educational Institute, , ", badge: "BE" },
-        { icon: "Briefcase", text: "2 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "2 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -182,7 +182,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Bengaluru" },
         { icon: "GraduationCap", text: "KIET Group of Institutions", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -207,7 +207,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Pune" },
         { icon: "GraduationCap", text: "Poornima institute of engineering and technology", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -232,7 +232,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Agra" },
         { icon: "GraduationCap", text: "Dayalbagh Educational Institute, Agra", badge: "BE" },
-        { icon: "Briefcase", text: "4 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "4 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -257,7 +257,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Dehradun" },
         { icon: "GraduationCap", text: "GLA University", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -282,7 +282,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Jammu" },
         { icon: "GraduationCap", text: "Model Institute of Engineering and Technology", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -309,7 +309,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Bengaluru" },
         { icon: "GraduationCap", text: "Annie institute of technology and research centre chhindwara", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -334,7 +334,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Nasik" },
         { icon: "GraduationCap", text: "Sandip University", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience pre Scaler" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -360,7 +360,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Singhbhum" },
         { icon: "GraduationCap", text: "GOVERNMENT ENGINEERING COLLEGE, DUMKA", badge: "BE" },
-        { icon: "Briefcase", text: "4 Years work experience Before" },
+        { icon: "Briefcase", text: "4 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -386,7 +386,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Pune" },
         { icon: "GraduationCap", text: "Shivaji University", badge: "BE" },
-        { icon: "Briefcase", text: "5 Years work experience Before" },
+        { icon: "Briefcase", text: "5 Years work experience " },
       ],
       careerProgression: {
         before: {
@@ -411,7 +411,7 @@ export const profileData = [
       details: [
         { icon: "MapPin", text: "Agra" },
         { icon: "GraduationCap", text: "University of Petroleum and Energy Studies", badge: "BE" },
-        { icon: "Briefcase", text: "3 Years work experience Before" },
+        { icon: "Briefcase", text: "3 Years work experience " },
       ],
       careerProgression: {
         before: {
