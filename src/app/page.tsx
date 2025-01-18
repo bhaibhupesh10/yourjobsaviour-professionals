@@ -63,7 +63,7 @@ const CourseDetail = ()=>{
         <RecentPlacedStudents />
         {/* <RegisteredStudentCarousel /> */}
       <LeftRightAlumniCarousel />   
-        <CompaniesCarousel/>
+        {/* <CompaniesCarousel/> */}
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
         <ProgramHighlights></ProgramHighlights>
@@ -78,8 +78,8 @@ const CourseDetail = ()=>{
   <CareerGuarantee />
      {/* <PlacedStudents /> */}
      {/* <CoursePricingSection></CoursePricingSection> 10 */}
-     <BeginnerToPro></BeginnerToPro>
-<BecomePlacement></BecomePlacement>
+     {/* <BeginnerToPro></BeginnerToPro> */}
+{/* <BecomePlacement></BecomePlacement> */}
      {/* <CoursePricingSection></CoursePricingSection> 10 */}
      {/* <Tools></Tools>  */}
         {/* <CertificateDisplay></CertificateDisplay> */}
