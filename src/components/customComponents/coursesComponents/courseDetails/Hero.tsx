@@ -72,7 +72,7 @@ const Hero = () => {
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
                 <div className="aspect-[16/9] w-full md:w-[50px] lg:w-[50px] h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
                 <Image 
-  src="/assets/professionals.png"
+  src="/assets/HeroImage8.png"
   alt="Course illustration"
   fill
   className="object-contain rounded-tr-3xl rounded-bl-3xl "
