@@ -44,6 +44,7 @@ import { RecentPlacedStudents } from "@/components/recent-placed-students";
 import { RegisteredStudentCarousel } from "@/components/customComponents/coursesComponents/RegisteredStudentCarousel";
 
 
+import { LeftRightAlumniCarousel } from "@/components/customComponents/coursesComponents/courseDetails/LeftRightAlumniCarousel";
 
 
 
@@ -61,6 +62,7 @@ const CourseDetail = ()=>{
         {/* <Testimonial2/> */}
         <RecentPlacedStudents />
         <RegisteredStudentCarousel />
+      <LeftRightAlumniCarousel />
         <CompaniesCarousel/>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
