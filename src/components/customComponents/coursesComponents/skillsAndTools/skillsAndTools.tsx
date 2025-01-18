@@ -4,51 +4,51 @@ import Image from 'next/image'
 export default function SkillsAndTools() {
   const skills = [
     {
-      icon: <GitBranch  className="h-10 w-10 rounded-2xl p-0 bg-gray-100  text-[#ff0000]" />,
+      icon: <GitBranch  className="h-10 w-10 rounded-2xl p-0 bg-gray-100  text-[#292929]" />,
       name: 'Master Git & GitHub'
     },
     {
-      icon: <DraftingCompass className="h-10 w-10 rounded-2xl p-0 bg-gray-100 text-[#ff0000]" />,
+      icon: <DraftingCompass className="h-10 w-10 rounded-2xl p-0 bg-gray-100 text-[#292929]" />,
       name: 'Automation Using Ansible'
     },
     {
-      icon: <Code2 className="h-10 w-10 text-[#ff0000] rounded-2xl p-0 bg-gray-100" />,
+      icon: <Code2 className="h-10 w-10 text-[#292929] rounded-2xl p-0 bg-gray-100" />,
       name: 'Jenkins & Build Automation'
     },
     {
-      icon: <MonitorCog className="h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100" />,
+      icon: <MonitorCog className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
       name: 'Monitoring Tools : Prometheus & Grafana'
     },
     {
-      icon: <Container className="h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100" />,
+      icon: <Container className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
       name: 'Docker, Container & Kubernetes - CKA & CKAD'
     },
     {
-      icon: <Gitlab className="h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100" />,
+      icon: <Gitlab className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
       name: 'Mastering SCM & Manage CI/CD using GITLab'
     },
     {
-      icon: <ShieldCheck className="h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100"  />,
+      icon: <ShieldCheck className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100"  />,
       name: 'Docker Certified Associate'
     },
     {
-      icon: <ShipWheel className="h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100" />,
+      icon: <ShipWheel className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
       name: 'MKE - Mirantis Kubernetes Engine'
     },
     {
-      icon: <Cpu className="h-10 w-10 text-[#ff0000] rounded-2xl  bg-gray-100" />,
+      icon: <Cpu className="h-10 w-10 text-[#292929] rounded-2xl  bg-gray-100" />,
       name: 'Industry Relevant - AWS Cloud Training'
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100" />,
+      icon: <Sparkles className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
       name: 'Industry Relevant Linux Training'
     },
     {
-      icon: <Cpu className="h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100" />,
+      icon: <Cpu className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
       name: 'DevOps Essential - CI / CD over AWS Cloud'
     },
     {
-      icon: <FileJson className='h-10 w-10 text-[#ff0000] rounded-2xl bg-gray-100' />,
+      icon: <FileJson className='h-10 w-10 text-[#292929] rounded-2xl bg-gray-100' />,
       name: 'Shell Scripting'
     }
   ]

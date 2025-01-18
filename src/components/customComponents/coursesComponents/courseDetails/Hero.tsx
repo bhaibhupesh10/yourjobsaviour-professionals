@@ -76,7 +76,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
                 <div className="aspect-[16/9] w-full md:w-[50px] lg:w-[50px] h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
                 <Image 
-  src="/assets/Hero6.png"
+  src="/assets/professionals.png"
   alt="Course illustration"
   fill
   className="object-contain rounded-tr-3xl rounded-bl-3xl "
@@ -98,7 +98,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
           {/* Online Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <MdOnlinePrediction className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <MdOnlinePrediction className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ONLINE</span>
               <span className="font-bold text-xs block">3 months</span>
@@ -107,7 +107,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
 
           {/* Admission Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <BsCalendarCheck className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
               <span className="font-bold text-xs block">15th Jan</span>
@@ -119,7 +119,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
 
           {/* Course Fee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
-  <FaMoneyBillWave className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
+  <FaMoneyBillWave className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
   <div>
     {/* <span className="text-black text-xs font-medium">COURSE FEE</span> */}
     <span className="text-black text-xs font-medium">JOB ROLE</span>
@@ -143,7 +143,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
 
           {/* Guarantee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <TbCertificate className="text-red-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <TbCertificate className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">GUARANTEE</span>
               <div className="font-bold text-xs">100% refund if not hired</div>
