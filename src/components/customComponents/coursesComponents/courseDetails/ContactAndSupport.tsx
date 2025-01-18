@@ -200,7 +200,7 @@ export default function QueryForm() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-[#4a4a4a] text-white py-2 rounded hover:bg-gray-700"
+              className="w-full bg-[#ff0000] text-white py-2 rounded hover:bg-gray-700"
             >
               {loading ? "Submitting..." : "Submit →"}
             </button>

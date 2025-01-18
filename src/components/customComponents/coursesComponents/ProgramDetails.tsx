@@ -96,7 +96,7 @@ export default function ProgramCohorts() {
                 {/* Action Button */}
                 <div>
                   <a href={config.link} target="blank">
-                    <Button className="w-full sm:w-auto bg-[#292929] hover:shadow-white hover:shadow-md hover:bg-[#292929]">
+                    <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-black hover:shadow-md hover:bg-[#ff0000]">
                       {config.buttonText}
                     </Button>
                   </a>
