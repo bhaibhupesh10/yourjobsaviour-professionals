@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { GraduationCap, Briefcase, Code } from 'lucide-react'
+import { GraduationCap, Briefcase, Code,ShieldCheck,TicketSlash } from 'lucide-react'
 import { payment } from "@/data/paymentLink"
 import { usePathname } from "next/navigation"
 import { useState, useEffect } from 'react'
@@ -132,33 +132,43 @@ export default function ProgramCohorts() {
                   Perfect for professionals seeking to master DevOps skills and excel in this rapidly growing field.
                 </p>
               </div>
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
                   Minimum 90% attendance is mandatory to qualify for the placement.
                 </p>
-              </div>
+              </div> */}
             </div>
           </Card>
 
           {/* What You'll Receive */}
           <Card className="p-6 bg-white">
-            <h3 className="text-lg font-medium mb-4 text-black font-semibold">
+            <h3 className="text-lg text-black font-medium mb-4 font-semibold">
               What You&apos;ll Receive:
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {[
-                "Guaranteed Career Switch / Salary Hike.",
-                "100% refund if not hired" ,
-                "An exclusive opportunity to learn from World Record Holder, Mr. Vimal Daga, and elevate your DevOps skills to excel and stand out in the competitive tech industry!",
-                
-              ].map((role, index) => (
-                <div key={index} className="flex items-center gap-2">
-                  <div className="flex-shrink-0 w-2 h-2 mt-2 bg-gray-500 rounded-full" />
-                  <span className="text-sm text-black">{role}</span>
-                </div>
-              ))}
+            <div className="space-y-4">
+              <div className="flex gap-3">
+                <ShieldCheck className="w-5 h-5 text-gray-500 flex-shrink-0" />
+                <p className="text-sm text-black">
+                 Guaranteed Career Switch / Salary Hike. .
+                 </p>
+              </div>
+              <div className="flex gap-3">
+                <TicketSlash className="w-5 h-5 text-gray-500 flex-shrink-0" />
+                <p className="text-sm text-black">
+                100% refund if not hired.
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
+                <p className="text-sm text-black">
+                An exclusive opportunity to learn from World Record Holder, Mr. Vimal Daga, and elevate your DevOps skills to excel and stand out in the competitive tech industry!
+
+
+                </p>
+              </div>
             </div>
+        
           </Card>
         </div>
       </div>
