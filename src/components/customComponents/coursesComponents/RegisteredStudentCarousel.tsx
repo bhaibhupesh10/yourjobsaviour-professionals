@@ -39,7 +39,7 @@ export function RegisteredStudentCarousel() {
         />
       </div>
       
-      <div className="flex justify-end md:mt-4">
+      <div className="flex text-md justify-end md:mt-4">
         <TextGenerateEffect words={words} />
       </div>
     </div>
