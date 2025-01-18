@@ -47,9 +47,9 @@ function ProfileCard({ profile }: { profile: any }) {
   const { name, profilePicture, company, jobTitle, linkedinUrl, details, careerProgression } = profile;
 
   return (
-    <Card className="w-[350px] h-[400px] p-4 flex flex-col justify-between bg-white border border-gray-200 shadow-lg">
+    <Card className="w-[350px] h-[350px] p-4 flex flex-col justify-between bg-white border border-gray-200 shadow-lg">
       {/* Profile Header */}
-      <div className="space-y-2">
+      <div className="space-y-1">
         <div className="flex items-start gap-4">
           <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white shadow-md flex-shrink-0">
             <Image 
@@ -80,7 +80,7 @@ function ProfileCard({ profile }: { profile: any }) {
       </div>
 
       {/* Details Section */}
-      <div className="space-y-1.5">
+      <div className="space-y-1 ">
         {details.map((detail: any, index: number) => (
           <div key={index} className="flex items-center gap-2 text-xs text-muted-foreground">
             {detail.icon === "MapPin" && <MapPin className="w-3 h-3" />}
@@ -97,7 +97,7 @@ function ProfileCard({ profile }: { profile: any }) {
       </div>
 
       {/* Career Progression */}
-      <div className="pt-2 border-t">
+      <div className="pt-0 border-t">
         <div className="flex items-center justify-between">
           {/* Before */}
           <div className="text-center space-y-1.5 flex-1">
@@ -112,7 +112,7 @@ function ProfileCard({ profile }: { profile: any }) {
                   className="object-cover"
                 />
               </div>
-              <div className="font-medium mt-1 text-xs line-clamp-1 max-w-[120px]">
+              <div className="font-medium mt-0 text-xs line-clamp-1 max-w-[120px]">
                 {careerProgression.before.companyName}
               </div>
               <div className="text-[10px] text-muted-foreground line-clamp-1 max-w-[120px]">
