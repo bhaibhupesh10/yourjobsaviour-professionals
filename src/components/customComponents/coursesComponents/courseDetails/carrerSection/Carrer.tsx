@@ -109,10 +109,10 @@ export default function CourseCareerModule() {
               <div className="flex items-center justify-between mb-4">
                 <div>
                   <h1 className="text-3xl font-bold text-white mb-4 ml-8">
-                    Career Track
+                    Career Assistance 
                   </h1>
                   <p className="text-white/90 max-w-3xl md:pl-8 text-sm">
-                    Becoming a part of our Placement Guaranteed DevOps Initiative gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success.
+                  Becoming a part of our Career Switch / Salary Hike Guaranteed DevOps program gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success
                   </p>
                 </div>
 
