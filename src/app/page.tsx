@@ -72,8 +72,9 @@ const CourseDetail = ()=>{
         <ProgramHighlights></ProgramHighlights>
         <CourseCurriculumModule></CourseCurriculumModule>
         <CourseCarrrerModule ></CourseCarrrerModule>
-        <SignISAAgreement />
         <CourseCarousel />
+        <SignISAAgreement />
+        
      <Projects></Projects> {/*6 */}
      <MentorProfile></MentorProfile>
      <Analyst></Analyst>

@@ -17,7 +17,8 @@ export default function CourseCurriculumModule() {
       <div className="max-w-6xl mx-auto">
         {/* Main Heading - Hidden on mobile */}
         <div className="hidden md:block max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold text-center">
-          Let's walk you through the journey of <span className="text-[#ff0000]"> <br/>Placement Guaranteed DevOps </span> Initiative by LinuxWorld
+          Let's walk you through the journey of <span className="text-[#ff0000]"> <br/>Career Switch / Salary hike Guaranteed </span> DevOps Training by LinuxWorld
+
         </div>
 
         <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] pb-6 rounded-xl relative">
@@ -65,8 +66,8 @@ export default function CourseCurriculumModule() {
         14+ DevOps Training Modules  
       </h1>
       <p className="text-white/90 max-w-3xl  md:pl-8 text-md">
-        Exclusively designed, industry-relevant, placement-focused training modules by World Record Holder Mr. Vimal Daga offer you a step-by-step learning journey with hands-on practical implementation—ensuring you are fully prepared to become DevOps Engineer
-      </p>
+      Exclusively designed, industry-relevant, placement-focused training modules by World Record Holder Mr. Vimal Daga offer you a step-by-step learning journey with hands-on practical implementation—ensuring you are fully prepared to become SRE I/ SRE II/ DevOps Engineer
+     </p>
     </div>
   </div>
             {/* Mobile Module Tabs and Content */}
