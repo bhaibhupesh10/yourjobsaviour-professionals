@@ -57,9 +57,10 @@ export function ProfileCard({ profile }: ProfileCardProps) {
           <div className="space-y-1 flex-1">
             <h2 className="text-lg font-semibold line-clamp-1">{name}</h2>
             <Badge variant="secondary" className="font-normal text-xs">
-              @ {company}
+              {/* @ {company} */}
+              {jobTitle}
             </Badge>
-            <p className="text-xs text-muted-foreground line-clamp-2">{jobTitle}</p>
+            {/* <p className="text-xs text-muted-foreground line-clamp-2">{jobTitle}</p> */}
           </div>
         </div>
 
@@ -81,11 +82,11 @@ export function ProfileCard({ profile }: ProfileCardProps) {
             {detail.icon === "GraduationCap" && <GraduationCap className="w-3 h-3" />}
             {detail.icon === "Briefcase" && <Briefcase className="w-3 h-3" />}
             <span className="line-clamp-1">{detail.text}</span>
-            {detail.badge && (
+            {/* {detail.badge && (
               <Badge variant="secondary" className="font-normal text-xs">
                 {detail.badge}
               </Badge>
-            )}
+            )} */}
           </div>
         ))}
       </div>
@@ -95,7 +96,7 @@ export function ProfileCard({ profile }: ProfileCardProps) {
         <div className="flex items-center justify-between">
           {/* Before */}
           <div className="text-center space-y-1.5 flex-1">
-            <div className="text-xs text-muted-foreground">Before</div>
+            <div className="text-xs text-bold-foreground">Before</div>
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-md">
                 <Image
@@ -119,7 +120,7 @@ export function ProfileCard({ profile }: ProfileCardProps) {
 
           {/* After */}
           <div className="text-center space-y-1.5 flex-1">
-            <div className="text-xs text-muted-foreground">After</div>
+            <div className="text-xs text-bold-foreground">After</div>
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-md">
                 <Image
