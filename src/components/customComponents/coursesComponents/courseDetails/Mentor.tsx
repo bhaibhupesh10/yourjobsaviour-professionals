@@ -173,9 +173,9 @@ const MentorProfile = () => {
               <p className='pl-6'><span className='font-semibold '>Why He’s Called the DevOps Guru :</span> Under his mentorship, thousands of professionals and students have transitioned into successful DevOps engineers, making significant contributions to leading tech companies.
               </p>
               <p className='pl-6'>
-             <span className='font-semibold'> Transforming Careers, Inspiring Dreams :</span> <ul><li>
+             <span className='font-semibold'> Transforming Careers, Inspiring Dreams :</span> <ul className="list-disc list-inside mt-2"><li>
              Mentored thousands into successful DevOps careers.</li>
-             <li>Focuses on practical skills, confidence building, and industry relevance.</li>
+             <li>Focuses on practical skills, confidence building, and industry &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;relevance.</li>
              </ul> 
 
               </p>
