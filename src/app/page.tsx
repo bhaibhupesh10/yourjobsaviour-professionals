@@ -48,7 +48,7 @@ import { LeftRightAlumniCarousel } from "@/components/customComponents/coursesCo
 import { DevOpsJobRoles } from "@/components/customComponents/coursesComponents/courseDetails/DevopsSkills";
 
 
-
+import RequiredSkills from "@/components/customComponents/RequiredSkills/Requiredskills";
 
 const CourseDetail = ()=>{
     
@@ -67,6 +67,7 @@ const CourseDetail = ()=>{
       <LeftRightAlumniCarousel />   
         {/* <CompaniesCarousel/> */}
         <CareerTransformation />
+        <RequiredSkills></RequiredSkills>
         <ProgramCohorts></ProgramCohorts>
         <ProgramHighlights></ProgramHighlights>
         <CourseCurriculumModule></CourseCurriculumModule>

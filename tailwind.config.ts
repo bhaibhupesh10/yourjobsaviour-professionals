@@ -67,13 +67,19 @@ export default {
   	},
 	  animation: {
         'scroll': 'scroll 40s linear infinite',
+		marquee: "marquee 50s linear infinite",
       },
 	  keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(calc(-300px * 7))' },
         },
+		marquee: {
+			"0%": { transform: "translateX(0%)" },
+			"100%": { transform: "translateX(-50%)" }, // Scroll only half the width
+		  },
       },
+	  
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
