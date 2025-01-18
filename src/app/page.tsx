@@ -58,12 +58,13 @@ const CourseDetail = ()=>{
         <Navbar />
         {/* <CourseDetailHero></CourseDetailHero> */}
         <Hero />
+        <RegisteredStudentCarousel />
         {/* <LinkedInShowcase /> */}
         {/* <LinkdingTestimonial2></LinkdingTestimonial2> */}
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <RecentPlacedStudents />
-        <RegisteredStudentCarousel />
+        
       <LeftRightAlumniCarousel />   
         {/* <CompaniesCarousel/> */}
         
