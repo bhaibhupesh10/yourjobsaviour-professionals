@@ -45,6 +45,8 @@ import { RegisteredStudentCarousel } from "@/components/customComponents/courses
 
 
 import { LeftRightAlumniCarousel } from "@/components/customComponents/coursesComponents/courseDetails/LeftRightAlumniCarousel";
+import { DevOpsJobRoles } from "@/components/customComponents/coursesComponents/courseDetails/DevopsSkills";
+
 
 
 
