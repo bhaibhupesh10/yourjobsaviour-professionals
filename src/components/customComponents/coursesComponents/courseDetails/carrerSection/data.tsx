@@ -43,6 +43,7 @@ export const modules: Module[] =// data.ts
     title: "Module 4",
     subtitle: "Interview Preparation (Technical & Non-Technical)",
     topics: [
+      "1:1 Mentoring Sessions",
       "Interview prep and mock interviews",
       "Interview Best Practices",
       "Module-wise Interview Questions"

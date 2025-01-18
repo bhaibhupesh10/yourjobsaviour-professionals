@@ -83,13 +83,13 @@ const CompaniesCarousel = () => {
   }, [logos]);
 
   useEffect(() => {
-    const moveLogos = () => {
-      setScrollOffset((prev) => prev + 1); // Increment the offset to simulate movement
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setScrollOffset(scrollPosition);
     };
 
-    const interval = setInterval(moveLogos, 20); // Adjust interval to control speed of movement
-
-    return () => clearInterval(interval); // Clear the interval on cleanup
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (

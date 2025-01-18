@@ -85,7 +85,7 @@ export default function ISASigningProcess() {
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/Get-placed.png" alt="img" className="w-full h-full object-contain" />
                   </div>
-                  <h3 className="text-white font-semibold text-sm">Get placed as DevOps Engineer</h3>
+                  <h3 className="text-white font-semibold text-sm">Get a career switch / salary hike as DevOps Engineer </h3>
                   <p className="text-gray-500 text-sm">(Note : 100% refund if not hired)</p>
                 </CardContent>
               </Card>
@@ -154,7 +154,7 @@ export default function ISASigningProcess() {
                       <img src="/assets/Get-placed.png" alt="img" className="w-full h-22 object-contain" />
                     </div>
                   </div>
-                  <h3 className="text-white font-semibold text-sm">Get placed as DevOps Engineer</h3>
+                  <h3 className="text-white font-semibold text-sm">Get a career switch / salary hike as DevOps Engineer </h3>
                   <p className="text-gray-300 text-sm">(Note : 100% refund if not hired)</p>
                 </CardContent>
               </Card>
