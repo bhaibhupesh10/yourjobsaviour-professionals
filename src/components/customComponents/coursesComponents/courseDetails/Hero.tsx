@@ -57,16 +57,12 @@ const Hero = () => {
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
               <div className="max-w-5xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                Job Oriented DevOps Initiative <span className="text-white">  with Guaranteed Placement</span>
+                DevOps Expert Program <span className="text-white">  With <br/>Guaranteed Career Switch / Salary Hike Opportunities</span>
                 </h1>
                 <h2 className="text-xl md:text-lg lg:text-md font-base text-white mb-4">
-                (Last Batch for Technical Students - 2024/2025 passouts)
+                 Get Upto 2x hike as SRE I / II / DevOps Engineer
                 </h2>
-                <p className="text-base font-bold sm:text-lg md:text-xl lg:text-xl text-white mb-6">
-       
-Next companies hiring in Apr - May offering  ₹4-8 LPA package.
-
-                </p>
+  
                 <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-gray-700 text-sm sm:text-base">
                 100% refund if not hired
                 </Button>
@@ -110,7 +106,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
             <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
-              <span className="font-bold text-xs block">15th Jan</span>
+              <span className="font-bold text-xs block">22nd Jan</span>
               <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
                 Limited seats
               </Badge>
@@ -122,15 +118,15 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
   <FaMoneyBillWave className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
   <div>
     {/* <span className="text-black text-xs font-medium">COURSE FEE</span> */}
-    <span className="text-black text-xs font-medium">JOB ROLE</span>
+    <span className="text-black text-xs font-medium">Course Fees</span>
     <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
       <div className="flex items-center gap-2"> {/* Price row */}
-        {/* <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span> */}
-        <span className="font-bold text-xs flex-shrink-0">DevOps Engineer</span>
-        {/* <span className="line-through text-gray-400 text-xs">₹35,000</span>
+         <span className="font-bold text-xs flex-shrink-0">₹45,000 (+taxes)</span> 
+        {/* <span className="font-bold text-xs flex-shrink-0">DevOps Engineer</span> */}
+         <span className="line-through text-gray-400 text-xs">₹75,000</span>
         <span className="text-green-600 font-semibold border-green-600 text-[10px]">
-          Save <br/> ₹10,000/-
-        </span> */}
+          Save <br/> ₹30,000/-
+        </span> 
       </div>
       <div> {/* Badge row */}
         {/* <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
