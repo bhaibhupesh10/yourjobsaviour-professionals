@@ -38,10 +38,10 @@ export default function ProgramCohorts() {
         <div className="space-y-2">
           <h1 className=" text-3xl font-semibold text-black text-center">
           Career Switch / Salary Hike Oriented
-            <span className="text-[#ff0000]">   DevOps Globally Recognised Program</span>
+            <span className="text-[#ff0000]">  DevOps Globally Recognised Program</span>
           </h1>
           <h2 className="text-md sm:text-lg text-black text-center">
-            Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> , and secure a guaranteed career switch or salary hike with 
+            Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> <br/> and secure a guaranteed career switch or salary hike with 
              100% refund if not hired
           </h2>
         </div>
@@ -52,7 +52,7 @@ export default function ProgramCohorts() {
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
               <h3 className="text-md sm:text-lg text-black font-semibold">
-                LW Job Oriented DevOps Globally Recognized Initiative 2025
+                LW Career Switch / Salary Hike Oriented DevOps Globally Recognized Initiative 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
                 Limited Seats available
