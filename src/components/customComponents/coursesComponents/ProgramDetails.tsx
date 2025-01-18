@@ -117,19 +117,19 @@ export default function ProgramCohorts() {
               <div className="flex gap-3">
                 <GraduationCap className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT - 2024 & 2025 passouts
-                </p>
+                 Exclusively crafted for working IT professionals.
+                 </p>
               </div>
               <div className="flex gap-3">
                 <Briefcase className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  No prior knowledge required learn everything from Basics to Advanced levels.
+                  Ideal for those aiming for a career switch or a significant salary hike in the DevOps domain.
                 </p>
               </div>
               <div className="flex gap-3">
                 <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  Ideal for those curious to learn new skills and work on industry-level projects.
+                  Perfect for professionals seeking to master DevOps skills and excel in this rapidly growing field.
                 </p>
               </div>
               <div className="flex gap-3">
@@ -148,11 +148,10 @@ export default function ProgramCohorts() {
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                "Guaranteed Placement. (100% refund if not hired)",
-                "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
-                "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
-                "6 Months Internship Certificate upon successful completion of the projects",
-                "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
+                "Guaranteed Career Switch / Salary Hike.",
+                "100% refund if not hired" ,
+                "An exclusive opportunity to learn from World Record Holder, Mr. Vimal Daga, and elevate your DevOps skills to excel and stand out in the competitive tech industry!",
+                
               ].map((role, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <div className="flex-shrink-0 w-2 h-2 mt-2 bg-gray-500 rounded-full" />

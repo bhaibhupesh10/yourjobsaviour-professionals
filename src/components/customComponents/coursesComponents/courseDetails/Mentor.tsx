@@ -110,7 +110,7 @@ const MentorProfile = () => {
     <h1 className="text-center mb-4 font-bold  text-3xl sm:text-3xl text-black pb-4">
      
 
-    Know Your Mentor : <span className="text-[#ff0000] text-center"> The World Record Holder - Mr Vimal Daga </span>
+    Know Your Mentor : <span className="text-[#ff0000] text-center">Mr Vimal Daga - </span> The DevOps Guru Transforming Lives
           </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Column - Image Carousel and Mentor Details */}
@@ -163,20 +163,24 @@ const MentorProfile = () => {
               </ul>
 
               <p className="text-black text-md -mb-2 pl-6">
-              Mr. Vimal Daga, a visionary leader in DevOps and cutting-edge technologies, is on an exclusive India Tour to redefine how technical training is delivered. As the driving force behind TGS, he is visiting cities across the nation to empower learners and professionals with hands-on DevOps training, bridging the gap between theoretical knowledge and real-world implementation.
+              Mr. Vimal Daga, a visionary leader in DevOps and cutting-edge technologies. With an unwavering passion for teaching and a vision to make India a global leader in technology, he has touched countless lives through his groundbreaking work in DevOps, cloud computing, and automation.
+
 
               </p>
               {/* <p className="text-black pl-6">
                His mission includes: 
               </p> */}
-              <p className='pl-6'><span className='font-semibold '>Industry Expert Interactions:</span> Learn directly from thought leaders who are shaping the DevOps landscape.
+              <p className='pl-6'><span className='font-semibold '>Why He’s Called the DevOps Guru :</span> Under his mentorship, thousands of professionals and students have transitioned into successful DevOps engineers, making significant contributions to leading tech companies.
               </p>
               <p className='pl-6'>
-             <span className='font-semibold'>  Real-World Capstone Projects:</span> Gain practical experience by working on projects aligned with current industry demands.
+             <span className='font-semibold'> Transforming Careers, Inspiring Dreams :</span> <ul><li>
+             Mentored thousands into successful DevOps careers.</li>
+             <li>Focuses on practical skills, confidence building, and industry relevance.</li>
+             </ul> 
 
               </p>
               <p className='pl-6'>
-              <span className='font-semibold'>Valuable Industry Insights: </span> Understand the latest DevOps trends, tools, and practices to stay ahead in the competitive tech world.
+              From being a world record holder to a mentor who truly cares, Mr. Vimal Daga embodies excellence. His journey is not just about teaching DevOps; it's about inspiring a generation to dream big and achieve more.
               </p>
             </div>
           </div>
