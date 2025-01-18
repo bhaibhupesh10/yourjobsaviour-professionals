@@ -147,12 +147,9 @@ body {
 }
 
 .animate-scroll-left {
-  animation: scroll-left 60s linear infinite;
+  animation: scroll-left 10s linear infinite;
 }
 
-.animate-scroll-right {
-  animation: scroll-right 60s linear infinite;
-}
 
 /* Pause animation on hover */
 .animate-scroll-left:hover,
