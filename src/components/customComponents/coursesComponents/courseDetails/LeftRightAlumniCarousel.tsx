@@ -46,10 +46,10 @@ export function LeftRightAlumniCarousel() {
       <div className="max-w-7xl px-4 md:py-8 lg:py-8 py-2 mx-auto relative">
         <div className="text-center mb-8">
           <div className="font-bold text-3xl inline-block">
-            Our Students Are Working At
+           <span className="text-[#ff0000]">Our Students</span> Are Working At
           </div>
           <div className="text-gray-500">
-            Leading tech companies across the globe
+            Become a part of our Alumni working at Leading Companies (moving two lines, logos closer & faster movement)
           </div>
         </div>
   
