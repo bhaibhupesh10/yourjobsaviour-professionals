@@ -37,13 +37,12 @@ export default function ProgramCohorts() {
         {/* Headers */}
         <div className="space-y-2">
           <h1 className=" text-3xl font-semibold text-black text-center">
-            Job Oriented
-            <span className="text-[#ff0000]"> DevOps Globally Recognized Initiative</span>
+          Career Switch / Salary Hike Oriented
+            <span className="text-[#ff0000]">   DevOps Globally Recognised Program</span>
           </h1>
           <h2 className="text-md sm:text-lg text-black text-center">
-            Chance to learn from DevOps Guru -
-            <span className="text-[#ff0000]"> Mr Vimal Daga</span>
-            &nbsp;& get Placement Guarantee
+            Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> , and secure a guaranteed career switch or salary hike with 
+             100% refund if not hired
           </h2>
         </div>
 
