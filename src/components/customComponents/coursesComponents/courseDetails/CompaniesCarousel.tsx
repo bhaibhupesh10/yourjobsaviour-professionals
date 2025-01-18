@@ -74,23 +74,22 @@ const CompaniesCarousel = () => {
   const containerRef = useRef(null);
   const [scrollOffset, setScrollOffset] = useState(0);
 
-  // Split the logos into chunks of 10 (only done once)
+  // Split the logos into two rows (half for each row)
   const chunkedLogos = React.useMemo(() => {
-    const result = [];
-    for (let i = 0; i < logos.length; i += 11) {
-      result.push(logos.slice(i, i + 10));
-    }
-    return result;
+    return [
+      logos.slice(0, Math.ceil(logos.length / 2)),
+      logos.slice(Math.ceil(logos.length / 2)),
+    ];
   }, [logos]);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      setScrollOffset(scrollPosition);
+    const moveLogos = () => {
+      setScrollOffset((prev) => prev + 1); // Increment the offset to simulate movement
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    const interval = setInterval(moveLogos, 20); // Adjust interval to control speed of movement
+
+    return () => clearInterval(interval); // Clear the interval on cleanup
   }, []);
 
   return (
@@ -110,7 +109,7 @@ const CompaniesCarousel = () => {
             <div
               key={rowIndex}
               ref={containerRef}
-              className="whitespace-nowrap "
+              className="whitespace-nowrap"
               style={{
                 transform: `translateX(${
                   -scrollOffset * (rowIndex % 2 === 0 ? 0.1 : -0.1)

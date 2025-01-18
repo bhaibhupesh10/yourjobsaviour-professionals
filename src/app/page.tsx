@@ -61,8 +61,12 @@ const CourseDetail = ()=>{
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <RecentPlacedStudents />
+<<<<<<< HEAD
+        {/* <RegisteredStudentCarousel /> */}
+=======
         <RegisteredStudentCarousel />
       <LeftRightAlumniCarousel />
+>>>>>>> d82391f0a3990be88046f4bb0f407123468c835b
         <CompaniesCarousel/>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
@@ -71,13 +75,14 @@ const CourseDetail = ()=>{
         <CourseCarrrerModule ></CourseCarrrerModule>
         <SignISAAgreement />
         <CourseCarousel />
+       
      <Projects></Projects> {/*6 */}
      <MentorProfile></MentorProfile>
      <Analyst></Analyst>
   <TestimonialsSection />
   <CareerGuarantee />
-     <PlacedStudents />
-     {/* <CoursePricingSection></CoursePricingSection> 10 */}
+      {/* <PlacedStudents />
+      <CoursePricingSection></CoursePricingSection> 10 */}
      <BeginnerToPro></BeginnerToPro>
 <BecomePlacement></BecomePlacement>
      {/* <CoursePricingSection></CoursePricingSection> 10 */}
