@@ -15,7 +15,7 @@ import CoursePricingSection from "@/components/customComponents/coursesComponent
 import CertificateDisplay from "@/components/customComponents/coursesComponents/courseDetails/CertificateDetails";
 import Navbar from "@/components/customComponents/Navbar";
 import Footer from "@/components/customComponents/Footer";
-import CareerTransformation from "@/components/customComponents/coursesComponents/courseDetails/CareerTransformation";
+
 import CourseCurriculumModule from "@/components/customComponents/coursesComponents/CourseModules/CourseModule";
 
 import CompaniesCarousel from "@/components/customComponents/coursesComponents/courseDetails/CompaniesCarousel";
@@ -63,10 +63,10 @@ const CourseDetail = ()=>{
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <RecentPlacedStudents />
-        {/* <RegisteredStudentCarousel /> */}
+        <RegisteredStudentCarousel />
       <LeftRightAlumniCarousel />   
         {/* <CompaniesCarousel/> */}
-        <CareerTransformation />
+        
         <RequiredSkills></RequiredSkills>
         <ProgramCohorts></ProgramCohorts>
         <ProgramHighlights></ProgramHighlights>
