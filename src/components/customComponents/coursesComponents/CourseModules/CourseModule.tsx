@@ -21,7 +21,7 @@ export default function CourseCurriculumModule() {
 
         </div>
 
-        <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] pb-6 rounded-xl relative">
+        <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] pb-6 rounded-xl relative">
         {/* <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] pb-6 rounded-xl relative"> */}
           {/* Tag with number - Hidden on mobile */}
           <div className="hidden md:block absolute -top-2 left-12">
