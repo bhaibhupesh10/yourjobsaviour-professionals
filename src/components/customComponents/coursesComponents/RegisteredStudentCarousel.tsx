@@ -12,7 +12,7 @@ export function RegisteredStudentCarousel() {
     <div className="max-w-7xl px-4 md:py-8 lg:py-8 py-2 mx-auto relative">
       <div className="text-center">
         <div className="font-bold text-3xl inline-block">
-          Career Transformation
+         <span className="text-[#ff0000]">Career Transformations </span>Success Stories from our Learners
           <span>
             <img
               src="/assets/flag.png" 
@@ -25,11 +25,11 @@ export function RegisteredStudentCarousel() {
           </span>
         </div>
         <div className="text-gray-500">
-          Becoming a part of Placement Guaranteed Initiative 2025
+        With our DevOps Expert Program, IT professionals have transformed their careers and achieved their goals!
         </div>
       </div>
       
-      <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+      <div className="rounded-md flex flex-col antialiased bg-[#e2e2e2] dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={profileData}
           direction="left"
@@ -39,7 +39,7 @@ export function RegisteredStudentCarousel() {
         />
       </div>
       
-      <div className="flex text-md justify-end md:mt-4">
+      <div className="flex text-md justify-end md:mt-4 first-line:">
         <TextGenerateEffect words={words} />
       </div>
     </div>

@@ -44,7 +44,7 @@ const Hero = () => {
     return (
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
-        <div className="bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
+        <div className="bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
           <div className="max-w-6xl mx-auto py-4 md:py-2"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
             <div className="flex flex-wrap gap-2 sm:gap-2 pt-6">
@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
               <div className="max-w-5xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                DevOps Expert Program <span className="text-white">  With <br/>Guaranteed Career Switch / Salary Hike Opportunities</span>
+                DevOps Expert Program <span className="text-white font-semibold">  With<br/>Guaranteed Career Switch/Salary Hike</span>
                 </h1>
                 <h2 className="text-xl md:text-lg lg:text-md font-base text-white mb-4">
                  Get Upto 2x hike as SRE I / II / DevOps Engineer

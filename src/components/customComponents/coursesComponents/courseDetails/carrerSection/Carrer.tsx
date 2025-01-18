@@ -20,7 +20,7 @@ export default function CourseCareerModule() {
         
       {/* Mobile View */}
 <div className="md:hidden">
-  <div className="bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] rounded-xl p-4 relative"> {/* Added relative positioning */}
+  <div className="bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] rounded-xl p-4 relative"> {/* Added relative positioning */}
     {/* Added Mobile Number */}
     <div className="absolute -top-2 left-4 w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center">
       <span className="text-white font-bold text-lg">2</span>

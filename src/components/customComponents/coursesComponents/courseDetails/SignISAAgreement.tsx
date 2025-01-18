@@ -7,7 +7,7 @@ export default function ISASigningProcess() {
   return (
     <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-gray-50">
       <div className="max-w-6xl mx-auto">
-        <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] pb-6 rounded-xl relative">
+        <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] pb-6 rounded-xl relative">
           {/* Tag with number - Hidden on mobile */}
           <div className="hidden md:block absolute -top-2 left-12">
             <div className="relative w-20 h-24">
