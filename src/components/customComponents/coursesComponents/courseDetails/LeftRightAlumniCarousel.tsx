@@ -59,8 +59,8 @@ export function LeftRightAlumniCarousel() {
             items={companiesRow1}
             direction="left"
             speed="slow"
-            cardWidth={180}  // Fixed size for all cards
-            cardHeight={100} // Fixed size for all cards
+            cardWidth={160}  // Fixed size for all cards
+            cardHeight={80} // Fixed size for all cards
           />
         </div>
   
@@ -70,8 +70,8 @@ export function LeftRightAlumniCarousel() {
             items={companiesRow2}
             direction="right"
             speed="slow"
-            cardWidth={180}  // Same size as first row
-            cardHeight={100} // Same size as first row
+            cardWidth={160}  // Same size as first row
+            cardHeight={80} // Same size as first row
           />
         </div>
       </div>    
