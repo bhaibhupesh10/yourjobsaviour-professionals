@@ -1,9 +1,34 @@
-
 "use client";
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
+import { ProfileCard } from "../customComponents/coursesComponents/courseDetails/ProfileCard";
+
+// Update the interface for items
+interface ProfileData {
+  name: string;
+  profilePicture: string;
+  company: string;
+  jobTitle: string;
+  linkedinUrl: string;
+  details: {
+    icon: string;
+    text: string;
+    badge?: string;
+  }[];
+  careerProgression: {
+    before: {
+      companyLogo: string;
+      companyName: string;
+      designation: string;
+    };
+    after: {
+      companyLogo: string;
+      companyName: string;
+      designation: string;
+    };
+  };
+}
 
 export const InfiniteMovingCards = ({
   items,
@@ -11,12 +36,10 @@ export const InfiniteMovingCards = ({
   speed = "fast",
   pauseOnHover = true,
   className,
-  cardWidth = 250,
-  cardHeight = 250,
+  cardWidth = 350, // Updated default width for ProfileCard
+  cardHeight = 350, // Updated default height for ProfileCard
 }: {
-  items: {
-    image: string;
-  }[];
+  items: ProfileData[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -88,31 +111,29 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {[...items, ...items].map((item, idx) => (
+        {items.map((profile, idx) => (
           <li
             key={idx}
-            className="relative rounded-2xl flex-shrink-0 overflow-hidden flex items-center justify-center"
+            className="relative flex-shrink-0"
             style={{
               width: `${cardWidth}px`,
               height: `${cardHeight}px`
             }}
           >
-            <div 
-              className="relative w-full h-full flex items-center justify-center"
-            >
-              <Image
-                src={item.image}
-                alt={`Student ${idx + 1}`}
-                width={cardWidth - 20}
-                height={cardHeight - 20}
-                className="object-cover rounded-lg"
-                style={{
-                  maxWidth: '100%',
-                  maxHeight: '100%',
-                  objectFit: 'cover'
-                }}
-              />
-            </div>
+            <ProfileCard profile={profile} />
+          </li>
+        ))}
+        {/* Duplicate set for infinite scroll */}
+        {items.map((profile, idx) => (
+          <li
+            key={`duplicate-${idx}`}
+            className="relative flex-shrink-0"
+            style={{
+              width: `${cardWidth}px`,
+              height: `${cardHeight}px`
+            }}
+          >
+            <ProfileCard profile={profile} />
           </li>
         ))}
       </ul>
