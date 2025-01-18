@@ -88,7 +88,7 @@ function CourseCarousel() {
                 </h1>
                 <div className="text-white/90 max-w-5xl md:ml-8 md:pl-12">
                   <p className="text-md mb-2">
-                    Get ready to be hired by core tech companies & secure a package between ₹4,00,000 - ₹8,00,000
+                  Get ready to be hired by core tech companies & secure a career switch / salary hike upto 2x as DevOps Engineer 
                   </p>
                   <p className="font-semibold text-white/70">
                     (Note : 100% refund if not hired)
